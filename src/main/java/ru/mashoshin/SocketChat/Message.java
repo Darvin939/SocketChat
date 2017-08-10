@@ -10,6 +10,11 @@ public class Message {
         this.type = type;
     }
 
+    public Message(MessageType type) {
+        this.type = type;
+        this.message = "";
+    }
+
     public String getMessage() {
         return message;
     }
